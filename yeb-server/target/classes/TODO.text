@@ -1,0 +1,20 @@
+---完成jwt工具类的编写--- DONE
+---完成登入登出功能--- DONE
+---完成jwtFilter编写--- DONE
+---完成SpringSecurityConfig编写
+，包含authenticationEntryPoint,accessDeniedHandler--- DONE
+---完成Swagger2的配置--- DONE
+---配置使用验证码，生成验证码给前端--- DONE
+---登录功能加上验证验证码--- DONE
+---编写菜单获取功能--- DONE
+---使用REDIS存储菜单--- DONE
+---根据请求的url获取菜单--- DONE
+---完成异常处理部分--- DONE
+---完成存储过程处理部门添加任务--- DONE
+---mapper.xml递归处理查询---DONE
+---配置分页--- DONE
+---rabbitMq发送入职邮件--- DONE
+---分页查询员工账套信息---
+
+---WebSocket--- 重中之重-了解一下WebSocket的运作流程
+---个人中心操作功能---

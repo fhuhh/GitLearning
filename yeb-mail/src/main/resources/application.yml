@@ -1,0 +1,35 @@
+#arxbyeiolzdkiedc
+server:
+  port: 8082
+spring:
+  mail:
+    host: smtp.qq.com
+    protocol: smtp
+    default-encoding: UTF-8
+    password: arxbyeiolzdkiedc
+    username: 1412936007@qq.com
+    port: 465
+
+#  配置rabbitMQ
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+    listener:
+      simple:
+#        开启rabbitmq的手动确认
+        acknowledge-mode: manual
+  redis:
+    timeout: 10000ms
+    host: localhost
+    port: 6379
+    database: 0
+    #    database可以选择使用哪个库
+    #    lettuce.pool设置连接池相关的配置
+    lettuce:
+      pool:
+        max-active: 1024
+        max-wait: 10000ms
+        max-idle: 200
+        min-idle: 5
